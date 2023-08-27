@@ -1,0 +1,264 @@
+.card-articulos_titulo h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulos-container_row {
+  width: 100%;
+}
+
+.card-container_body_row {
+  background-color: #f5f5f5 !important;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.articulos-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulos-container_content {
+  width: 95%;
+  height: 80%;
+}
+
+.card-body_titulo_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-articulos_titulo h1,
+.pago_titulo h1 {
+  gap: 3px;
+  color: #363636;
+  line-height: 1.125;
+  word-break: break-word;
+  font-weight: 600;
+}
+.card-articulos_titulo h1 span,
+.pago_titulo h1 span {
+  font-size: 2rem;
+}
+
+.card-articulos_titulo_botones {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.card-articulos_titulo_botones button,
+.btn_delete_articulo,
+.btn_pagos,
+.pago_totales_boton button,
+.pago-efectivo_boton,
+.btn-cerrar_cupones,
+.btn-cat_art,
+.btn-agregar_articulo {
+  background-color: #cc05ab;
+  border-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: calc(0.5em - 1px) 1em;
+}
+
+.card-articulos_titulo_botones button:hover,
+.btn_delete_articulo:hover,
+.btn_pagos:hover,
+.pago_totales_boton button:hover,
+.pago-efectivo_boton:hover,
+.btn-cerrar_cupones:hover,
+.btn-cat_art:hover,
+.btn-agregar_articulo {
+  background-color: #c005a1;
+  border-color: transparent;
+  color: #fff;
+}
+
+.card-articulos_titulo_botones button:focus:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(204,5,171,.25);
+}
+
+
+/* TODO: SECCION TABLA ARTICULOS */
+.tabla-text_right {
+  text-align: right !important;
+}
+.tabla-text_button {
+  display: flex;
+  justify-content: center;
+}
+
+/* TODO: SECCION TABLA CUPONES */
+.tabla-cupones_titulo {
+  display: flex;
+  gap: 3px;
+}
+
+/* TODO: SECCION PAGOS */
+.card-body_pagos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f5f5f5 !important;
+  padding: 0.5rem;
+}
+
+.pago_total_pagado,
+.pago_total_cambio {
+  display: flex;
+  justify-content: space-between;
+}
+.pago_total_pagado h1,
+.pago_total_cambio h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.pago_total_pagado h1 {
+  color: #cc05ab !important;
+}
+.pago_total_cambio h1 {
+  color: #48c78e !important;
+}
+
+.pago_totales_boton button {
+  width: 100%;
+}
+
+.btn_pagos_secondary {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #363636;
+  justify-content: center;
+  padding: calc(0.5em - 1px) 1em;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.25rem;
+}
+
+.pago_formas_pago {
+  max-height: 30vh;
+  overflow: auto;
+}
+
+.table-td {
+  font-size: 1.25rem;
+}
+.table-td_boton {
+  display: flex;
+  justify-content: center;
+}
+
+.table-td_color {
+  color: #cc05ab!important;
+}
+
+.cambio-content {
+  background-color:#48c78e;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pago-efectivo_boton {
+  width: 100%;
+}
+
+.modal-body_pagos input {
+  font-size: 1.5rem;
+}
+.modal-body_pagos input:active,
+.modal-body_pagos input:focus {
+  border-color: #cc05ab;
+  box-shadow: 0 0 0 0.125em rgba(204,5,171,.25);
+}
+
+.cupon-descuento_botones button {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cupon-descuento_botones button h4,
+.cupon-descuento_botones button h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.descuento_porcentaje {
+  color: #cc05ab;
+  font-size: 1.5rem;
+}
+.descuento_titulo {
+  color: black;
+  font-size: 1rem;
+}
+
+.modal-footer_cupones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cerrar_cupones {
+  width: 50%;
+}
+
+.btn_pagos {
+  width: 100%;
+}
+
+/* TODO: CONFIGURACION GENERAL MODAL */
+.modal-header {
+  box-shadow: 0 0.125em 0.25em hsla(0,0%,4%,.1);
+}
+.modal-title {
+  font-weight: bold;
+}
+
+
+/* TODO SECCION MODAL ARTICULOS */
+.btn-cat_art {
+  width: 25%;
+}
+
+.cat-articulos_categoria button {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #363636;
+}
+
+.btn-agregar_articulo {
+  width: 100%;
+}
+
+.tabla-articulos .input-group {
+  gap: 10px;
+}
+
+.btn-input {
+  height: 3rem;
+}
+.btn-input:active,
+.btn-input:focus {
+  border-color: #cc05ab !important;
+  box-shadow: 0 0 0 0.125em rgba(204,5,171,.25);
+  height: 2.5rem !important;
+}
+
+/* TAMAÑOS LETRAS  fs-5 1.25rem*/

@@ -1,0 +1,9 @@
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  background-color: #dbdbdb;
+}
+
+img {
+  max-height: 70px;
+}

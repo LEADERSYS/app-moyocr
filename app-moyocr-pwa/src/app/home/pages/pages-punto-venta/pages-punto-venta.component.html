@@ -1,0 +1,427 @@
+<div class="articulos-container">
+  <div class="row articulos-container_row">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body card-container_body">
+          <div class="row card-container_body_row">
+            <div class="col-md-12 card-body_titulo_content">
+              <div class="card-articulos_titulo">
+                <h1>
+                  <span class="material-symbols-outlined">list</span>
+                  <span>ARTICULOS (0)</span>
+                </h1>
+              </div>
+              <div class="card-articulos_titulo_botones">
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#modalCupones">
+                  <span class="material-symbols-outlined">add_circle</span>
+                  <b>CUP&Oacute;N</b>
+                </button>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#modalCategoriaArticulos">
+                  <span class="material-symbols-outlined">add_circle</span>
+                  <b>ART&Iacute;CULO</b>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-12 pt-4">
+              <div class="tabla-articulos">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">CANTIDAD</th>
+                        <th scope="col">CONCEPTO</th>
+                        <th scope="col" style="text-align: right;">P.U</th>
+                        <th scope="col" style="text-align: right;">DESC.</th>
+                        <th scope="col" style="text-align: right;">IMPORTE</th>
+                        <th scope="col" style="text-align: center;">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>CONO BLUEBERRY</td>
+                        <td class="tabla-text_right">₡1,300.00</td>
+                        <td class="tabla-text_right">₡0.00</td>
+                        <td class="tabla-text_right">₡2,600.00 </td>
+                        <td class="tabla-text_button">
+                          <button class="btn btn_delete_articulo">
+                            <span class="material-symbols-outlined">close</span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>CONO BLUEBERRY</td>
+                        <td class="tabla-text_right">₡1,300.00</td>
+                        <td class="tabla-text_right">₡0.00</td>
+                        <td class="tabla-text_right">₡2,600.00 </td>
+                        <td class="tabla-text_button">
+                          <button class="btn">X</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tabla-cupones">
+                <div class="tabla-cupones_titulo pt-3 pb-3">
+                  <span class="material-symbols-outlined">local_activity</span>
+                  <h5>Cupones</h5>
+                </div>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">CUP&Oacute;N</th>
+                        <th scope="col" style="text-align: right;">DESC.</th>
+                        <th scope="col" style="text-align: center;">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>2 x 1</td>
+                        <td class="tabla-text_right">₡1,300.00</td>
+                        <td class="tabla-text_button">
+                          <button class="btn btn_delete_articulo">
+                            <span class="material-symbols-outlined">close</span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>2 x 1</td>
+                        <td class="tabla-text_right">₡1,300.00</td>
+                        <td class="tabla-text_button">
+                          <button class="btn btn_delete_articulo">
+                            <span class="material-symbols-outlined">close</span>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+
+              <div class="card-body_pagos">
+
+                <div class="pago_titulo">
+                  <h1>
+                    <span class="material-symbols-outlined">credit_card</span>
+                    <span>PAGO</span>
+                  </h1>
+                </div>
+                <div class="pago_formas_pago">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="table-td">EFECTIVO</td>
+                        <td class="table-td_boton">
+                          <button class="btn btn_pagos" data-bs-toggle="modal" data-bs-target="#modalFormaPago">C7,000.00</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>CREDITO</th>
+                        <td>
+                          <button class="btn btn_pagos_secondary" data-bs-toggle="modal" data-bs-target="#modalFormaPago">C7,000.00</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>DEBITO</th>
+                        <td>Larry the Bird</td>
+                      </tr>
+                      <tr>
+                        <th>EFECTIVO</th>
+                        <td>
+                          <button class="btn btn_pagos">C7,000.00</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>CREDITO</th>
+                        <td>Jacob</td>
+                      </tr>
+                      <tr>
+                        <th>DEBITO</th>
+                        <td>Larry the Bird</td>
+                      </tr>
+                       <tr>
+                        <th>EFECTIVO</th>
+                        <td>
+                          <button class="btn btn_pagos">C7,000.00</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>CREDITO</th>
+                        <td>Jacob</td>
+                      </tr>
+                      <tr>
+                        <th>DEBITO</th>
+                        <td>Larry the Bird</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="pago_total_info">
+                  <div class="pago_total_pagado">
+                    <h1>PAGADO</h1>
+                    <h1>C7,500.00</h1>
+                  </div>
+                  <div class="pago_total_cambio">
+                    <h1>CAMBIO</h1>
+                    <h1>C600.00</h1>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 pt-3">
+          <div class="card">
+            <div class="card-body">
+
+              <div class="card-body_pagos">
+
+                <div class="pago_titulo">
+                  <h1>
+                    <span class="material-symbols-outlined">credit_card</span>
+                    <span>TOTALES</span>
+                  </h1>
+                </div>
+                <div class="pago_totales">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="table-td">SUBTOTAL</td>
+                        <td class="table-td">C5,200.00</td>
+                      </tr>
+                      <tr>
+                        <td class="table-td">IMPUESTOS</td>
+                        <td class="table-td">C186.00</td>
+                      </tr>
+                      <tr>
+                        <th class="table-td table-td_color">TOTAL</th>
+                        <th class="table-td table-td_color">C6,300.00</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="pago_totales_boton">
+                  <button class="btn">
+                    <span class="material-symbols-outlined">verified</span>
+                    FINALIZAR
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- MODAL PAGOS - EFECTIVO / TARJETAS -->
+<div class="modal fade" id="modalFormaPago" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+          <b>EFECTIVO</b>
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+        </button>
+      </div>
+      <div class="modal-body modal-body_pagos">
+        <div class="pago-efectivo">
+          <div class="mb-3">
+            <label for="pago_recibido" class="form-label">PAGO RECIBIDO</label>
+            <input type="number" autocomplete="on" autofocus="autofocus" min="0" step=".01" class="form-control" id="pago_recibido" placeholder="0">
+          </div>
+          <div class="mb-3">
+            <label for="total_abonar" class="form-label">TOTAL A ABONAR</label>
+            <input type="number" autocomplete="on" autofocus="autofocus" min="0" step=".01"  class="form-control" id="total_abonar" placeholder="0">
+          </div>
+          <div class="mb-3 cambio-content">
+            <label class="form-label fs-5">CAMBIO</label>
+            <p class="fs-5">35345345</p>
+          </div>
+        </div>
+
+        <div class="pago-tarjetas">
+          <div class="mb-3">
+            <label for="pago_recibido" class="form-label">INGRESE MONTO</label>
+            <input type="number" autocomplete="on" autofocus="autofocus" min="0" step=".01" class="form-control" id="monto_tarjeta" placeholder="0">
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn pago-efectivo_boton">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL CUPONES -->
+<div class="modal fade" id="modalCupones" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">AGREGAR CUP&Oacute;N DE DESCUENTO</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col cupon-descuento_botones">
+            <button class="btn h-100">
+              <h4 class="descuento_porcentaje">20%</h4>
+              <h5 class="descuento_titulo">2x1 Descuento</h5>
+            </button>
+          </div>
+          <div class="col cupon-descuento_botones">
+            <button class="btn h-100">
+              <h4 class="descuento_porcentaje">20%</h4>
+              <h5 class="descuento_titulo">QUEJAS O REGALIAS MERCADEO</h5>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer modal-footer_cupones">
+        <button type="button" class="btn btn-cerrar_cupones" data-bs-dismiss="modal">CERRAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL ARTICULOS -->
+<div class="modal" id="modalCategoriaArticulos" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">CATEGORIA ART&Iacute;CULOS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="buscar-producto_id">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><b>Buscar art&iacute;culo por ID</b></label>
+            <input type="number" class="form-control btn-input" id="exampleFormControlInput1" placeholder="ID">
+          </div>
+        </div>
+        <div class="cat-articulos">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100" data-bs-target="#modalArticulos" data-bs-toggle="modal">HELADOS</button>
+            </div>
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100">HELADOS</button>
+            </div>
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100">HELADOS</button>
+            </div>
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100">HELADOS</button>
+            </div>
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100">HELADOS</button>
+            </div>
+            <div class="col cat-articulos_categoria">
+              <button class="btn h-100">HELADOS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modalArticulos" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">ART&Iacute;CULOS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="pb-2 buscar-producto_id">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><b>Buscar art&iacute;culo por ID</b></label>
+            <input type="number" class="form-control btn-input" id="exampleFormControlInput1" placeholder="ID">
+          </div>
+        </div>
+        <div class="pb-3 boton-categoria_regresar">
+          <button class="btn btn-cat_art" data-bs-target="#modalCategoriaArticulos" data-bs-toggle="modal">
+            <span class="material-symbols-outlined">arrow_back_ios_new</span>
+            CATEGOR&Iacute;AS
+          </button>
+        </div>
+        <div class="tabla-articulos">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">CANTIDAD</th>
+                <th scope="col">CONCEPTO</th>
+                <th scope="col">IMPORTE</th>
+                <th scope="col" style="text-align: center;">ACCI&Oacute;N</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="input-group ">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-agregar_articulo">
+                        <span class="material-symbols-outlined">
+                          remove
+                          </span>
+                      </button>
+                    </span>
+                    <input type="number" class="form-control">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-agregar_articulo" >
+                        <span class="material-symbols-outlined">
+                          add
+                          </span>
+                      </button>
+                    </span>
+                  </div>
+
+                </td>
+                <td>TOPPING PEQUEÑO</td>
+                <td>C950.00</td>
+                <td>
+                  <button class="btn btn-agregar_articulo">
+                    AGREGAR
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>TOPPING PEQUEÑO ADICIONAL</td>
+                <td>C950.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

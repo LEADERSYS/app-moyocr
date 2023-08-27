@@ -1,0 +1,160 @@
+
+.articulos-container {
+  padding-top: 5rem;
+}
+
+.opc-calendario_corte {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.calendario-corte {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+}
+
+.calendario-corte h5 {
+  font-size: 1.5rem !important;
+  color: #363636;
+}
+
+.calendario-corte .form-control_input {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.page-container {
+  background-color: #444;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.page-container .page {
+  background-color: #fff;
+  margin: auto;
+}
+.page-container .page.page-80mm {
+  width: 80mm;
+}
+.page-container .page .ticket {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px !important;
+  padding-bottom: 30px !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  page-break-before: always;
+  width: 100%;
+}
+.page-container .page .ticket .ctc,
+.page-container .page .ticket .razon_social,
+.page-container .page .ticket .ticket-header,
+.page-container .page .ticket .tienda {
+  text-align: center;
+}
+.page-container .page .ticket .tienda {
+  font-size: 12px;
+  font-weight: 700;
+}
+.page-container .page .ticket .rfc {
+  margin-top: 0;
+}
+.page-container .page .ticket .dir1,
+.page-container .page .ticket .dir2,
+.page-container .page .ticket .dir3,
+.page-container .page .ticket .regimen {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.page-container .page .ticket .fec {
+  margin-top: 15px;
+  width: 100%;
+}
+.page-container .page .ticket .fec td {
+  text-align: center;
+  width: 50%;
+}
+.page-container .page .ticket .fol {
+  margin-top: 15px;
+  width: 50%;
+}
+.page-container .page .ticket .vde {
+  margin-top: 15px;
+  width: 100%;
+}
+.page-container .page .ticket .total {
+  font-size: 13px;
+}
+.page-container .page .ticket .letras {
+  font-size: 11px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.page-container .page .ticket .fopa {
+  margin-top: 15px;
+  width: 100%;
+}
+.page-container .page .ticket .cajero,
+.page-container .page .ticket .ctc {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+.page-container .page .ticket .ctc {
+  font-size: 10px;
+}
+.page-container .page .ticket .pie {
+  text-align: center;
+}
+@media print {
+  @page {
+    size: 80mm 180mm;
+    margin: 5mm 5mm 5mm 5mm;
+  }
+  .page-container {
+    background-color: #fff !important;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .page-container .page.page-80mm {
+    width: 100% !important;
+  }
+  .ticket {
+    font-size: 11px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    page-break-before: always;
+  }
+  .ticket .ctc {
+    font-size: 11px;
+  }
+}
+
+
+.is-btn-success {
+  background-color: #48c78e;
+  border-color: transparent;
+  border-width: 1px;
+  color: #fff;
+  padding: calc(0.5em - 1px) 1em;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10px;
+}

@@ -1,0 +1,87 @@
+.sync-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.sync-content_section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5 !important;
+}
+
+.sync-content_card {
+  display: flex;
+  justify-content: center;
+}
+
+.sync-content_card .card-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+button {
+  width: 100%;
+  background-color: #cc05ab;
+  border-color: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 2.5em !important;
+}
+
+button:hover {
+  background-color: #b30496;
+  border-color: transparent;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.02);
+  border-color: transparent;
+  color: #4a4a4a;
+  width: 100% !important;
+}
+
+.card-header {
+  padding: 1.2rem 0;
+  background-color: transparent;
+  box-shadow: 0 0.125em 0.25em hsla(0,0%,4%,.1);
+  color: #363636;
+}
+
+.card-text {
+  margin-bottom: 0.75rem!important;
+  font-size: .85em !important;
+}
+
+
+/* Porogress Bar */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background-color: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  position: absolute;
+  animation: progressAnimation 3s linear infinite;
+}
+
+@keyframes progressAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
